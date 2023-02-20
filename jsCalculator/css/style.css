@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 500px;
+
+  margin: auto;
+
+  margin-top: 40px;
+}
+.wrapper {
+  background: tomato;
+  padding: 20px;
+  width: 210px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.add_btn_list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.row {
+  display: flex;
+  gap: 3px;
+}
+.row button {
+  flex: 1;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  padding: 11px;
+}
+.result input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  margin-bottom: 8px;
+  color: red;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
